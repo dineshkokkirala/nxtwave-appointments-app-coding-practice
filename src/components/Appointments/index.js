@@ -64,6 +64,7 @@ const Appointments = () => {
           <form>
             <label htmlFor="title">Title</label>
             <input
+              id="title"
               name="title"
               type="text"
               value={title}
@@ -72,6 +73,7 @@ const Appointments = () => {
             />
             <label htmlFor="date">Date</label>
             <input
+              id="date"
               name="date"
               type="date"
               value={date}
